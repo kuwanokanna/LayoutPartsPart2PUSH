@@ -1,1 +1,27 @@
 @charset "UTF-8";
+
+.fukidashi{
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  font-size: 16px;
+  background: #fad296;
+  border: 5px solid #8f5a0a;
+  border-radius: 30px;
+  display: flex
+  }
+.fukidashi:after,.fukidashi:before {
+  position: absolute;
+  content: "";
+  left: 30px;
+  border: 20px solid transparent;
+  }
+  .fukidashi:before{
+  bottom: -45px;
+  border-top: 20px solid #8f5a0a;
+  }
+  .fukidashi:after{
+    bottom: -38px;
+    border-top: 20px solid #fad296;
+  }

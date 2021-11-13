@@ -22,7 +22,7 @@
 .fade--out {
   animation: fadeOut 4s ease 4s 1 normal;
 }
-
+  
 .spin {
   animation: spin 4s linear infinite;
 }
